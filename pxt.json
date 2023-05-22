@@ -1,5 +1,5 @@
 {
-    "name": "serie-usb_2.0",
+    "name": "tableau_bord_temps_tour",
     "description": "",
     "dependencies": {
         "core": "*",
