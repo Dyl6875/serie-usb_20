@@ -1,4 +1,4 @@
+radio.setGroup(107)
 basic.forever(function () {
-    serial.writeLine("Temps au tour")
-    serial.writeLine("" + (input.runningTime()))
+    radio.sendNumber(input.runningTime())
 })
